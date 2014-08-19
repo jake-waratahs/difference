@@ -1,0 +1,19 @@
+{
+    "appKeys": {},
+    "capabilities": [
+        ""
+    ],
+    "companyName": "Boom",
+    "longName": "Difference",
+    "projectType": "native",
+    "resources": {
+        "media": []
+    },
+    "shortName": "Difference",
+    "uuid": "7ce0e91f-1267-4bd4-ac1b-80a6d4458733",
+    "versionCode": 1,
+    "versionLabel": "1.0",
+    "watchapp": {
+        "watchface": true
+    }
+}
