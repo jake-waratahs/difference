@@ -63,7 +63,6 @@ static void main_window_load(Window *window) {
   text_layer_set_font(s_text_layer, fonts_get_system_font(FONT_KEY_GOTHIC_28_BOLD));
   text_layer_set_text(s_text_layer, "It's time to make a difference");
   
-  //text_layer_set_size(s_time_layer, GSize(12,12));
   text_layer_set_text_alignment(s_text_layer, GTextAlignmentCenter);
   
   //Make it a child layer of the window layer
@@ -88,7 +87,6 @@ static void main_window_load(Window *window) {
   text_layer_set_text_color(s_date_layer, GColorBlack);
   text_layer_set_font(s_date_layer, fonts_get_system_font(FONT_KEY_GOTHIC_14_BOLD));
   text_layer_set_text_alignment(s_date_layer, GAlignBottom);
-  text_layer_set_text(s_date_layer, "Wednesday September 20th");
    
   layer_add_child(window_get_root_layer(window), text_layer_get_layer(s_date_layer));  
  */
